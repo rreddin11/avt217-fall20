@@ -2,8 +2,9 @@ h1 {
   font-size: 90px;
   color: blue;
 }
-p {
+body {
   font-size: 40px;
+  background-color: #6EF1FF;
 }
 a {
 
