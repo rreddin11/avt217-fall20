@@ -1,23 +1,23 @@
 h1 {
   font-size: 90px;
-  color: blue;
+  color: MidnightBlue;
 }
 body {
   font-size: 40px;
-  background-color: #6EF1FF;
-  color: DarkRed;
+  background-color: Aquamarine;
+  color: Salmon;
   margin: 100px;
   padding: 100px;
 }
 a:link {
-  color: DarkCyan;
+  color: PowderBlue;
 }
 a:hover {
-  color: DarkBlue;
+  color: RoyalBlue;
 }
 a:visited{
   color: ForestGreen;
 }
 a:active{
-  color: DarkOrange;
+  color: Pink;
 }
