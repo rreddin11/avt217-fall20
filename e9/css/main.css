@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+main {
+  width: 130vw;
+  margin: -50px -15vw;
+}
+.shape1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: -15px;
+  float: left;
+  opacity: .75;
+  border-radius: 50%;
+  border: 5px solid purple;
+}
+.shape2 {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+  margin: -15px -7.5px;
+  float: left;
+  opacity: .75;
+  transform: rotate(20deg);
+  border: 5px solid black;
+}
+.shape3 {
+  background-color: yellow;
+  width: 50px;
+  height: 200px;
+  margin: -20px -5px;
+  float: left;
+  opacity: .75;
+  transform: rotate(-20deg);
+  border-radius: 40%;
+}
