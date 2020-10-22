@@ -39,3 +39,34 @@ main {
   transform: rotate(-20deg);
   border-radius: 40%;
 }
+.shape4 {
+  background-color: purple;
+  width: 100px;
+  height: 200px;
+  margin: -5px;
+  float: left;
+  opacity: .75;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+.shape5 {
+  background-color: pink;
+  width: 200px;
+  height: 100px;
+  margin: -15px;
+  float: left;
+  opacity: .75;
+  transform: rotate(20deg);
+  border: 10px solid black;
+}
+.shape6 {
+  background-color: black;
+  width: 400px;
+  height: 200px;
+  margin: -10px -5px;
+  float: left;
+  opacity: .75;
+  transform: rotate(-50deg);
+  border: 5px solid white;
+  border-radius: 40%;
+}
