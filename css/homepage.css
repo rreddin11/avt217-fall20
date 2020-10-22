@@ -27,3 +27,31 @@ a:hover{
 a:active{
   color: black;
 }
+header{
+  width: 75vw;
+  margin: 25px auto;
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col{
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
