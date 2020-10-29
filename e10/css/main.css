@@ -18,3 +18,33 @@ body {
 .black {
   background-color: black;
 }
+.colhead {
+  width: 800px;
+  height: 80px;
+}
+.header, .subheader {
+  width: 800px;
+  margin: 10px;
+}
+.colhead, .subhead, .large {
+  background-color: red;
+}
+.subhead {
+  width: 800px;
+  height: 20px;
+}
+.large {
+  width: 260px;
+  height: 800px;
+  float: left;
+  margin-left: 10px;
+}
+.bigcol {
+  width: 850px;
+}
+.blankspace {
+  background-color: white;
+  height: 800px;
+  width: 800px;
+}
+main {display: flow-root;}
