@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board{
+  width: 800px;
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: red;
+}
+.black {
+  background-color: black;
+}
+.colhead {
+  width: 800px;
+  height: 80px;
+}
+.header, .subheader {
+  width: 800px;
+  margin: 10px;
+}
+.colhead, .subhead, .large {
+  background-color: red;
+}
+.subhead {
+  width: 800px;
+  height: 20px;
+}
+.large {
+  width: 260px;
+  height: 800px;
+  float: left;
+  margin-left: 10px;
+}
+.bigcol {
+  width: 850px;
+}
+.blankspace {
+  background-color: white;
+  height: 800px;
+  width: 800px;
+}
+
+main {display: flow-root;}
+
+.bloghlayout{
+  width: 800px;
+  margin: 10px;
+}
+.blogh {
+  width: 800px;
+  height: 150px;
+  background-color: red;
+}
+.blogbody {
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 10px;
+}
+.paragraph {
+  background-color: red;
+  width: 640px;
+  height: 450px;
+  margin-right: 10px;
+  float: left;
+}
+.ad {
+  background-color: red;
+  width: 150px;
+  height: 225px;
+  float: left;
+}
+.foot {
+  margin-top: 10px;
+  background-color: red;
+  width: 640px;
+  height: 50px;
+  float: left;
+}
