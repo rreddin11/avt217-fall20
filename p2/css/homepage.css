@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #111
+}
+header {
+  background-color: #00AEFF;
+  display: flow-root;
+  padding: 10px 50px;
+  position: relative;
+}
+main{
+  background-color: whitesmoke;
+}
+.title {
+  float: left;
+}
+.title p {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+nav {
+  float: right;
+  margin-top: -24px;
+  font-size: 24px;
+}
+nav a, nav a:link, nav a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: italic;
+  color: #111;
+}
+nav a, nav a:hover, nav a:active {
+  color: white;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-left: 25px;
+}
+.homepicture {
+  background: url(../images/crowd3.jpg) no-repeat center center;
+  opacity: 75%;
+  background-size: cover;
+  padding: 325px 100px;
+}
+.homepicture h1, .aboutpicture h1 {
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 25px;
+  color: #00AEFF;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.aboutpicture {
+  background: url(../images/crowd.jpg) no-repeat center center;
+  opacity: 70%;
+  background-size: cover;
+  padding: 325px 100px;
+}
+.row {
+  display: flow-root;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 25px 0;
+  background-color: #00AEFF;
+}
+.col {
+  width: calc(50% - 12.5px);
+  float: left;
+  margin-left: 10px;
+}
+.col-margin{
+  /* margin-right: 25px; */
+  margin-left: 15px;
+}
+.col img {
+  width: 100%;
+}
+.col h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+}
+.col p {
+  font-size: 28px;
+}
