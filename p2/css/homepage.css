@@ -50,7 +50,7 @@ li {
   background-size: cover;
   padding: 325px 100px;
 }
-.homepicture h1, .aboutpicture h1 {
+.homepicture h1, .aboutpicture h1, .musicpicture h1, .tourpicture h1 {
   text-align: center;
   font-size: 6rem;
   margin-bottom: 25px;
@@ -59,6 +59,18 @@ li {
 }
 .aboutpicture {
   background: url(../images/crowd.jpg) no-repeat center center;
+  opacity: 70%;
+  background-size: cover;
+  padding: 325px 100px;
+}
+.musicpicture {
+  background: url(../images/microphone.jpg) no-repeat center center;
+  opacity: 70%;
+  background-size: cover;
+  padding: 325px 100px;
+}
+.tourpicture {
+  background: url(../images/crowd2.jpg) no-repeat center center;
   opacity: 70%;
   background-size: cover;
   padding: 325px 100px;
@@ -89,4 +101,87 @@ li {
 }
 .col p {
   font-size: 28px;
+}
+.row2 {
+  display: flow-root;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 25px 0;
+  background-color: #00AEFF;
+}
+.col2 {
+  width: 500px;
+  float: left;
+  margin-left: 40px;
+}
+.col-margin2 {
+  /* margin-right: 25px; */
+  margin-left: 15px;
+}
+.col2 img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.col2 h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+  margin-top: 0px;
+}
+.col2 p {
+  font-size: 28px;
+  margin: 5px;
+}
+.col2 h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+  margin-top: 250px;
+}
+.col2 h4 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+  margin-top: 240px;
+}
+.col2 h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+  margin-top: 220px;
+}
+.row3 {
+  display: flow-root;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 150px 100px;
+  background-color: #00AEFF;
+}
+.col3 {
+  width: 100%;
+  float: left;
+}
+.col3 h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: indigo;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.col3 p {
+  font-size: 28px;
+  margin: 5px;
+  text-align: center;
+}
+.col3 h3 {
+  font-size: 28px;
+  margin: 5px;
+  text-align: center;
+}
+.col3 h4 {
+  font-size: 28px;
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 50px;
 }
